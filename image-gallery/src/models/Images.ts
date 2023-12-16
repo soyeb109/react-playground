@@ -20,6 +20,7 @@ const PhotoSchema = z.object({
   burredDataUrl: z.string().optional(),
 });
 
+
 export const ImagesSchemaWithPhotos = BasicImageSchema.extend({
   photos: z.array(PhotoSchema),
 });
