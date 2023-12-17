@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
-import { useFrom } from 'react-hook-form'
-import { useDispatch } from 'react-redux'
-import { Link, useNavigate } from 'react-router-dom'
-import authService from '../appwrite/auth'
-import { login } from '../store/authSlice'
-import { Button, Input, Logo } from './index'
+import React, { useState } from 'react';
+
+import { useDispatch } from 'react-redux';
+import { Link, useNavigate } from 'react-router-dom';
+import authService from '../appwrite/auth';
+import { login } from '../store/authSlice';
+import Button from './Button';
+import Input from './Input';
+import { Logo } from './index';
 
 const Signup = () => {
     const navigate = useNavigate()
@@ -84,4 +86,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Signup;

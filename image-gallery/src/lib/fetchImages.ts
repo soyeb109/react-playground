@@ -1,4 +1,4 @@
-import { ImagesResults } from "./../models/Images";
+import { ImagesResults } from "../models/Images";
 
 import { ImagesSchemaWithPhotos } from "@/models/Images";
 import env from "./env";
