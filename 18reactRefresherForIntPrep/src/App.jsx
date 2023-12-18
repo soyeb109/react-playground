@@ -17,6 +17,7 @@ export default function App() {
   const incerementByFive = useCallback(() => {
     setCount2((prevCount) => prevCount + 5)
   },[])
+  // if we have used a count in this function we had to giv the dependencies in the array count because count is in the outside 
   
   return (
     <div>
